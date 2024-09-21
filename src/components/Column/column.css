@@ -42,6 +42,17 @@
     gap: 1rem;    
 }
 
+.tickets{
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: all 0.5s ease;
+}
+
+.tickets.ani{
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 @media screen and (max-width:700px) {
     .column {
